@@ -1,12 +1,12 @@
-// Future section to add more
+// // Future section to add more
 
 
-import React from 'react';
+// import React from 'react';
 
-const Works = () => {
-	return (
-		<div>Works</div>
-	)
-}
+// const Works = () => {
+// 	return (
+// 		<div>Works</div>
+// 	)
+// }
 
-export default Works
+// export default Works
