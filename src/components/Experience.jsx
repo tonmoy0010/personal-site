@@ -1,7 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 const Experience = () => {
 	return (
-		<div>About</div>
+		<div>Experience</div>
 	)
 }
+
+export default Experience
