@@ -116,83 +116,31 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Full Stack Engineer (Intern)",
+      company_name: "Benevolence Financial Group",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "May 2020 - November 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Improved website visibility through Search Engine Optimization (SEO) by enhancing keyword references and increasing link backs.",
+        "Led the migration of a web page from WordPress to Django (C#) and JavaScript, handling both back-end and front-end development.",
+        "Developed a Python3 automation script to update website data based on market prices.",
+        "Collaborated with UI/UX designers to enhance website functionality and implemented best design practices.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
+      title: "Systems Administrator",
       company_name: "Shopify",
       icon: shopify,
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Provided comprehensive system maintenance and support, ensuring smooth operation, performing regular updates and patches, and swiftly resolving any system issues that arose.",
+        "Effectively managed and optimized computer networks, overseeing configuration, monitoring, and security measures, guaranteeing network performance, availability, and integrity.",
+        "Delivered top-notch technical support to end-users, resolving hardware and software problems, offering expert guidance on system usage, and providing prompt assistance for user queries.",
+        "Implemented robust data backup and recovery systems, devising backup strategies, conducting regular backups, and maintaining data integrity to safeguard critical organizational data.",
+        "Maintained stringent security standards by implementing access controls, firewalls, and intrusion detection systems, regularly conducting security audits, vulnerability assessments, and timely patch management to ensure robust system security.",
       ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-  ];
-  
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
   
@@ -262,4 +210,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };

@@ -5,6 +5,8 @@ import About from "./About";
 import Experience from "./Experience";
 // import Works from "./Works";
 import Contact from "./Contact";
+import Contactv2 from "./Contactv2";
+
 
 
 export {
@@ -15,4 +17,5 @@ export {
   Experience,
   // Works,
   Contact,
+  Contactv2,
 };
