@@ -16,12 +16,12 @@ import {
     figma,
     docker,
     meta,
-    starbucks,
+    bfg,
     tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    moore,
+    mobileapp,
+    blockchain,
+    deepl,
     threejs,
   } from "../assets";
   
@@ -42,19 +42,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Cloud Engineer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Application Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Security Analyst",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Offensive Security",
       icon: creator,
     },
   ];
@@ -118,7 +118,7 @@ import {
     {
       title: "Full Stack Engineer (Intern)",
       company_name: "Benevolence Financial Group",
-      icon: starbucks,
+      icon: bfg,
       iconBg: "#383E56",
       date: "May 2020 - November 2021",
       points: [
@@ -130,14 +130,14 @@ import {
     },
     {
       title: "Systems Administrator",
-      company_name: "Shopify",
-      icon: shopify,
+      company_name: "Moore Australia NSW",
+      icon: moore,
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
         "Provided comprehensive system maintenance and support, ensuring smooth operation, performing regular updates and patches, and swiftly resolving any system issues that arose.",
         "Effectively managed and optimized computer networks, overseeing configuration, monitoring, and security measures, guaranteeing network performance, availability, and integrity.",
-        "Delivered top-notch technical support to end-users, resolving hardware and software problems, offering expert guidance on system usage, and providing prompt assistance for user queries.",
+        "Delivered technical support to end-users, resolving hardware and software problems, offering expert guidance on system usage, and providing prompt assistance for user queries.",
         "Implemented robust data backup and recovery systems, devising backup strategies, conducting regular backups, and maintaining data integrity to safeguard critical organizational data.",
         "Maintained stringent security standards by implementing access controls, firewalls, and intrusion detection systems, regularly conducting security audits, vulnerability assessments, and timely patch management to ensure robust system security.",
       ],
@@ -146,33 +146,41 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Blockchain Development",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Worked on creating my P2P blockchain network in order to understand the concept better. Learned how to transact between two different peers and building Smart Contracts. Project developed using JavaScript. Different APIs were created and used Postman to interact with the Blockchain to create, delete and update transactions or ledger. Created my own version of Proof of Work using hashing algorithm which allowed every transaction to be unique. The project is still under development and open sourced.",
       tags: [
         {
-          name: "react",
+          name: "javascript",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "git",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "algorithmic hashing",
           color: "pink-text-gradient",
         },
+        {
+          name: "APIs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "postman",
+          color: "green-text-gradient",
+        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: blockchain,
+      source_code_link: "https://github.com/tonmoy0010/blockchain",
     },
     {
-      name: "Job IT",
+      name: "Mobile Application Development",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Developed an IOS application using React for the front end and DynamoDB on the back end to understand the concept of developing a secure phone applications, and APIs. Created the project by using Figma to develop multiple Wire frames, which were then used to develop the User Interface Prototype.",
       tags: [
         {
-          name: "react",
+          name: "reactjs",
           color: "blue-text-gradient",
         },
         {
@@ -180,34 +188,34 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "object oriented programming",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: mobileapp,
+      source_code_link: "https://github.com/tonmoy0010/Mobile-Application",
     },
     {
-      name: "Trip Guide",
+      name: "Deep and Scalable Anomaly Detection",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Worked with Dr. Xuyuan Zhang to create a tool which identifies anomalies during the software development life cycle using a combined method of Deep Learning and Isolation Forest.",
       tags: [
         {
-          name: "nextjs",
+          name: "neural networks",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "python",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "machine learning algorithm",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: deepl,
       source_code_link: "https://github.com/",
     },
   ];
-  
-  export { services, technologies, experiences, projects };
+
+export { services, technologies, experiences, projects };
