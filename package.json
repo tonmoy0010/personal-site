@@ -10,7 +10,9 @@
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"  
+    "deploy" : "gh-pages -d build" ,
+    "build": "npm run replace-urls && next build",
+    "replace-urls": "replace-in-file --configFile=replace-urls-config.js" 
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
