@@ -133,7 +133,7 @@ import {
       company_name: "Moore Australia NSW",
       icon: moore,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "April 2022 - Present",
       points: [
         "Provided comprehensive system maintenance and support, ensuring smooth operation, performing regular updates and patches, and swiftly resolving any system issues that arose.",
         "Effectively managed and optimized computer networks, overseeing configuration, monitoring, and security measures, guaranteeing network performance, availability, and integrity.",
