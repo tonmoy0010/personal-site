@@ -2,7 +2,7 @@
   "name": "personal-site",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://tonmoy0010.github.io/",
+  "homepage": "http://tonmoy0010.github.io/",
   "type": "module",
   "scripts": {
     "dev": "vite",
