@@ -24,8 +24,9 @@ const Hero = () => {
 					Hi, I'm <span className='text-[#915EFF]'>Tonmoy</span>
 				</h1>
 				<p className={`${styles.heroSubText} mt-2 text-white-100`}>
-					I am a passionate software engineer with a deep fascination for cybersecurity. <br className='sm:block hidden' />
+					Software engineer with a deep fascination for cybersecurity. <br className='sm:block hidden' />
 					<br className='sm:block hidden' />
+					<br></br>
 					Devoted to honing my skills in pentesting and malware analysis, I am driven by a relentless pursuit of
 					knowledge and a desire to fortify digital landscapes.
 				</p>
